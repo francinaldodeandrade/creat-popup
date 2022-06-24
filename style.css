@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    padding: 0;
+    border:0;
+
+}
+
+#pop-up{
+background-color:red;
+width: 500px;
+height: 500px;
+margin-left: 100px;
+position: absolute;
+display: none;
+}
