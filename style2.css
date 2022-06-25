@@ -1,0 +1,58 @@
+*{
+   box-sizing: border-box;
+}
+
+button{
+    display: block;
+    margin: 20px auto;
+    background-color: crimson;
+    color: white;
+    border:0;
+    cursor: pointer;
+    padding: 6px 10px;
+
+}
+
+/* div que escurece o restante do conteudo da classe */
+
+.popup-wrapper{
+    display: none;
+    background-color: rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* caixa do pop-up */
+.popup {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+    height: 70vh;
+    margin: 10% auto;
+    padding: 20px;
+    background: white;
+    position: relative;
+
+}
+
+/* link que abre a caixa de pop-up */
+.popup a{
+    color: white;
+    cursor: pointer;
+    padding: 6px 10px;
+    text-decoration: none;
+    background-color: crimson;
+}
+
+/* classe que contem o x de fechamento do pop-up */
+.popup-closed {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+
+}
